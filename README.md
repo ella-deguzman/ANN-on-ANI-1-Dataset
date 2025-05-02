@@ -1,2 +1,5 @@
 # ANN-on-ANI-1-Dataset
-bioec142 project
+Recently, machine learning has become a powerful tool in computational chemistry, especially for improving quantum chemical predictions. Artificial neural networks (ANNs) are a type of machine learning model that is inspired by the human brain, which learns by adjusting weights during training in order to minimize error. Traditional methods for approximating molecular energies are Density Functional Theory (DFT) or Coupled Cluster Singles and Doubles. However ANNs are proving to have similar accuracies to these techniques. More specifically, Smith introduced the ANI-1 (Accurate NeurAl networK engINe 1) which is a machine learning model designed to predict molecular potential energies with near DFT-level accuracy (Figure 1) but at a much lower computational cost (Smith et al., 2017).
+
+The goal of this project is to create a supervised learning ANN model with high accuracy of predicting molecular energies that replicates and builds off of current research on the ANI-1 dataset. The project uses the TorchANI implementation, which is a PyTorch-based program for training/inference of ANI (Gao et al., 2020), regularization techniques, hyperparameter tuning, and cross validation to create the most accurate model.
+
